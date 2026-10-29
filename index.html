@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>你好，我是 YZ。</title>
+<style>
+  :root { --bg:#f6f8fa; --card:#ffffff; --line:#e3e6ea; --ink:#1f2328; --muted:#57606a; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding: 100px 32px 64px;
+  }
+  .card {
+    max-width: 640px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 36px 34px 40px;
+  }
+  h1 { margin: 0 0 14px; font-size: 40px; line-height: 1.2; font-weight: 700; letter-spacing: .5px; }
+  .tagline { margin: 0; font-size: 18px; color: var(--muted); }
+  @media (max-width: 600px) {
+    body { padding: 56px 18px 40px; }
+    .card { padding: 26px 22px 30px; }
+    h1 { font-size: 30px; }
+    .tagline { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <h1>你好，我是 YZ。</h1>
+    <p class="tagline">一个启航人。</p>
+  </main>
+</body>
+</html>
